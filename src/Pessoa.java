@@ -27,5 +27,8 @@ public class Pessoa {
     public void setIdade(Integer idade) {
         this.idade = idade;
     }
-
+// Exercicio 02: Adicione méthodo falar() que imprime uma frase.
+    public String falar(){
+        return "Olá!";
+    }
 }
